@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+:root {
+    --cor-principal: #B3D9F2;     /* Azul clarinho pastel */
+    --cor-secundaria: #467EA6;    /* Azul médio (um pouco escuro) */
+    --cor-destaque: #2B5D88;      /* Azul mais escuro para hover e destaque */
+    --cor-fundo: #F4FAFF;         /* Azul quase branco para o fundo */
+}
+
+body {
+    font-family: 'Chakra Petch', sans-serif;
+    background-color: var(--cor-fundo);
+    color: var(--cor-secundaria);
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h5 {
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--cor-principal);
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--cor-destaque);
+}
+
+footer {
+    background-color: var(--cor-principal);
+    padding: 20px;
+    text-align: center;
+    color: var(--cor-secundaria);
+}
+
+
